@@ -11,7 +11,6 @@ public class Student{
 	return fulltime;
 	}
 }
-
  class TestStudent{
 	public static void main(String[]args){
 	Student bob = new Student();

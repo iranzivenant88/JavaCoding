@@ -19,7 +19,6 @@ public class VendingMachine{
 
 	
 }
-
 class Soda {
 	String name;
 	int price;

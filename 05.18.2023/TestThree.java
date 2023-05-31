@@ -1,12 +1,12 @@
 public class TestThree{
-	static double d = 45.6;
+	static double d = 45.6; //0.0 // 45.6
 	String lastName = "Gosling";
 	{
 	System.out.println("First instance block");
 	}
 	static {
 	System.out.println("First static block");
-	System.out.println(d);
+	System.out.println(d); // 45.6
 	}
 	public void m1(){
 	System.out.println(d);
@@ -25,11 +25,26 @@ public class TestThree{
 	System.out.println(d);
 	System.out.println("End of second static block");
 	}
-	boolean b = true;
-	static char c ='g';
+	boolean b = true;   
+	static char c ='g'; // 'g'
+
 	public static void main(String[]args){
-	TestThree tt = new TestThree();
-	System.out.println(c);
+	TestThree ti = new TestThree();
+	System.out.println(c); 
 	System.out.println(d);
+	
+	
 	}
 }
+  //First static block
+ //45.6
+ //Start of second static block
+//45.6
+//End of second static block
+//First instance block
+//Second instance bloc
+//Gosling
+//g
+//45.6
+
+

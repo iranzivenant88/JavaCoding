@@ -10,17 +10,30 @@ public class StringExThree{
 	String s8 = "Abhajah";
 	String s9 = new String("Venant");
 	String s10 = new String ("Abhajah");
-	System.out.println(s1);
-	System.out.println(s2);
-	System.out.println(s3);
-	System.out.println(s4);
-	System.out.println(s5);
-	System.out.println(s6);
-	System.out.println(s7);
-	System.out.println(s8);
-	System.out.println(s9);
-	System.out.println(s10);
+
+	System.out.println(s1);//Keyle
+	System.out.println(s2);//Harris
+	System.out.println(s3);//KeyleHarris
+	System.out.println(s4);//Jack
+	System.out.println(s5);//Nathan 
+	System.out.println(s6);//JackNathan
+	System.out.println(s7);//Venant
+	System.out.println(s8);//Abhajah
+	System.out.println(s9);//Venant
+	System.out.println(s10);//Abhajah
 	System.out.println("End of the main method");
 
 	}
+Keyle
+Harris
+KeyleHarris
+Jack
+Nathan
+JackNathan
+VenantAbhajah
+Abhajah
+Venant
+Abhajah
+End of the main method
+
 }
