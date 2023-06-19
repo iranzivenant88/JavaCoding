@@ -1,13 +1,12 @@
-package com.venant;
-public class ParentClass{
-	protected int Salary = 12 ;
-	protected String name = "Venant";
+package com.wyatt.venant;
 
+public class ParentClass{
+	protected int Salary = 2000;
+	
 	protected int getSalary(){
 	 return Salary;
 	}
-
-	protected void setAge(int Salary){
+	protected void setSalary(int Salary){
 	 this.Salary = Salary;
 	}
 }

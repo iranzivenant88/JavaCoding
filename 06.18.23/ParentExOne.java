@@ -1,4 +1,5 @@
-package shley.sam.venu;
+
+package ashley.sam.venant;
 public class ParentExOne{
 	protected int age = 23;
 	protected String name = "Nathan Jones";

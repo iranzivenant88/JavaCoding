@@ -1,5 +1,6 @@
 package org.test;
-import ashley.sam.venu.ParentExOne;
+import ashley.sam.venant.ParentExOne;
+
 public class MainExOne{
 	public static void main(String[]args){
 		System.out.println("Start of Main Method");
