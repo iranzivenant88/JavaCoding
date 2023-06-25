@@ -16,7 +16,7 @@ package com.peter;
 
 	// public void setName(String name ){
 	// 	this.name = name;
-	// }
+	//? }
 
 	public void displayName(String name){
 		System.out.println("The teacher's name is : "+name);
@@ -39,7 +39,6 @@ public class ChildTeacher extends Teacher{
         t1.displayName("Bala");
         t2.displayName("Prof.Sam");
         //System.out.println("Name one is : "+name1);
-
         // t2.setName("Prof. Sam");
         // String name2 = t2.getName();
 
