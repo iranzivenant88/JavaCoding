@@ -1,31 +1,19 @@
-/* different package sub class */
 package com.tito;
 import com.grace.Parent;
 
-public class Child extends Parent{
-	public static void main(String...args){
-		Child c1 = new Child();
-		c1.displayAge(22);
-		c1.displayName("Krishna");
-		c1.showCountry("India");
-		c1.getPoints(78);
+public class Child extends Parent {
+    public Child(int age, String name, String country) {
+        super(age, name, country);
+    }
 
-		// c1.setPoints(20);
-		// int point = c1.getPoints();
+    public static void main(String...args) {
+        Child c1 = new Child(21, "Bala", "India");
 
-		// c1.setAge(21);
-		// int age = c1.getAge();
+        c1.setPoints(20);
+        int points = c1.getPoints();
+        System.out.println("The points are :"+points);
 
-		// c1.setName("Bala");
-		// String name = c1.getName();
 
-		// c1.setOrigin("India");
-		// String country = c1.getOrigin();
-
-		// System.out.println("The child's age : "+age);
-		// System.out.println("The child points': "+point);
-		// System.out.println("The child's name : "+name);
-		// System.out.println("The child's origin:  "+c1.country);
-
-	}
+        
+    }
 }
