@@ -14,14 +14,14 @@ public class ChildExTwo extends ParentExTwo{
 		System.out.println("End of h3-method");
 	}
 	public static void main(String...args){
-		System.out.println("Start of main method");
-		ParentExTwo po = new ParentExTwo();
-		po.h3();
-		ChildExTwo co = new ChildExTwo();
-		co.e1(34,23);
-		co.h3();
-		po.h2();
-		System.out.println("End of main method");
+		System.out.println("Start of the main method ");
+		ParentExTwo pa = new ParentExTwo();
+		pa.h3();
+		ChildExTwo ca = new ChildExTwo();
+		ca.e1(34,23);
+		ca.h3();
+		pa.h2();
+		System.out.println("End of  the main method");
 
 	}
 }
