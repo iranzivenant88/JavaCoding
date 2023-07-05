@@ -1,4 +1,4 @@
-package harris.chris.mark;
+package d;
 import xavier.tom.bob.ParentExTwo;
 public class ChildExTwo extends ParentExTwo{
 	public void e1(int i, int j){
@@ -9,7 +9,7 @@ public class ChildExTwo extends ParentExTwo{
 	}
 	public static void h3(){
 		System.out.println("Start of h3-method");
-		int a = 34;
+		int a = 36;
 		System.out.println("The value of a is : "+a);
 		System.out.println("End of h3-method");
 	}
@@ -18,7 +18,7 @@ public class ChildExTwo extends ParentExTwo{
 		ParentExTwo pa = new ParentExTwo();
 		pa.h3();
 		ChildExTwo ca = new ChildExTwo();
-		ca.e1(34,23);
+		ca.e1(33,24);
 		ca.h3();
 		pa.h2();
 		System.out.println("End of  the main method");
