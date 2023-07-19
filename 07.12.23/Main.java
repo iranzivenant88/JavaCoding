@@ -1,10 +1,7 @@
-public class Main{
+public class LearnString{
 	public static void main(String...args){
-		Car car1 = new CarImpl();
-		CarImpl car2 = new CarImpl();
-
-			car1.speed();
-			car2.run();
+		String str = new String("venant");
+		System.out.println(str.toLowerCase())
 
 	}
 }
