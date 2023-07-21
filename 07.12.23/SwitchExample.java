@@ -16,7 +16,7 @@ public class SwitchExample{
 					break;
 
 			default:System.out.println("No Valid Case available");
-
+				break;
 		}
 
 	}

@@ -1,5 +1,8 @@
-public abstract interface Car{
-	public abstract void run();
-	public abstract void speed();
+public  class ArrayExampleOne{
+	int [] numbers = new int[4];
+	numbers[0] = 1;
+	numbers[1] = 2;
+	numbers[2] = 11;
+	System.out.println(numbers);
 	
 }
