@@ -9,4 +9,7 @@ public class Lens{
 		this.focalLength = focalLength;
 		this.isPrime = isPrime;
 	}
+	public String toString(){
+		return brand+" "+focalLength+" "+isPrime;
+	}
 }
