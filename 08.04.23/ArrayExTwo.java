@@ -19,5 +19,6 @@ public class ArrayExTwo{
 		
 		System.out.println("Variable Six correspondding class name is :"+variableSix.getClass().getName());
 			System.out.println("End of main method");
+		
 	}
 }
