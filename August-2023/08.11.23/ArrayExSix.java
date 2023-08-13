@@ -1,4 +1,4 @@
-package com.org.arrayexample.five;
+package com.org.arrayexample.six;
 public class ArrayExSix{
 	public static void main(String...args){
 		System.out.println("Start of main method");
