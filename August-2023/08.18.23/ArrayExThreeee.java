@@ -1,5 +1,5 @@
 package com.arrayexampleone;
-public class ArrayExThreeee{
+public class ArrayExOne{
 	public static void main(String...args){
 	System.out.println("Start of main method");
 	int[][][]m = new int[4][][];
