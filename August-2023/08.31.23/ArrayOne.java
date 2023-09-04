@@ -36,14 +36,13 @@ public class ArrayOne{
 	arrayOne[1][3][1] = 'b';
 	arrayOne[1][3][2] = 'c';
 
-	arrayOne[0][3][0] = 5;
-	arrayOne[0][3][1] = 32;
-	arrayOne[0][3][2] = 'Y';
+	arrayOne[1][3][0] = 5;
+	arrayOne[1][3][1] = 32;
+	arrayOne[1][3][2] = 'Y';
 
 	arrayOne[1][4][0] = 51;
 	arrayOne[1][4][1] = 45;
 	arrayOne[1][4][2] = 34;
-
 
 
 	arrayOne[2][0][0] = 's';
@@ -65,7 +64,6 @@ public class ArrayOne{
 	arrayOne[2][4][0] = 51;
 	arrayOne[2][4][1] = 45;
 	arrayOne[2][4][2] = 34;
-
 
 
 	arrayOne[3][0][0] = 's';
