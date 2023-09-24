@@ -1,35 +1,20 @@
-public class Student{
-	private int studentId;
-	private String name;
-	private float qualifyingExamMarks;
-	private int yearOfEngg;
-
-	public int getStudentId(){
-		return studentId;
-		
-	}
-	public void setStudentId(int studentId){
-		this.studentId = studentId;
-	}
-	public String getName(){
-		return name;
-	}
-	public void setName(String name){
+public class Student extends Thread{
+	String name;
+	public Student(String name){
 		this.name = name;
 	}
+	public void run(){
+		Thread.currentThread().setName(this.name);
+		for(int i = 0;i<20;i++){
+		System.out.println(i + " "+Thread.currentThread().getName());
+		try{
+			Thread.sleep(14);
+		}catch(Exception e){
+			System.out.println("Something wrong happened");
+		}
+		
+	}
 
-	public float getQualifyingExamMarks(){
-		return qualifyingExamMarks;
-		
 	}
-	public void setQualifyingExamMarks(float qualifyingExamMarks){
-		this.qualifyingExamMarks = qualifyingExamMarks;
-	}
-	public int getYearOfEngg(){
-		return yearOfEngg;
-		
-	}
-	public void setyearOfEngg(int yearOfEngg){
-		this.yearOfEngg = yearOfEngg;
-	}
+	
 }
