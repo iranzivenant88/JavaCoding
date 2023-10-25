@@ -1,2 +1,4 @@
 package com.venu.throwexample;
-public class NegativeNumberFound extends Exception{}
+public class NegativeNumberFound extends ArithmeticException{
+
+}
