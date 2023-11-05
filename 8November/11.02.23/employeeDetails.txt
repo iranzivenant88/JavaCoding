@@ -1,0 +1,9 @@
+Employee ID: 23
+Employee Name: Bona
+Employee Age: 34
+Employee Income: 45000.0
+Employee Address: USA
+Employee DepartmentId: D23
+Employee DepartmentName: IT
+Gross Salary: 46000.0
+401K: 2300.0
